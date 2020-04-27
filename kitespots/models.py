@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+# My models
 class Spot(models.Model):
     name = models.CharField(max_length=200)
     geolocation = models.CharField(max_length=150)
