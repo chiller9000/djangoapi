@@ -1,0 +1,20 @@
+source venv/bin/activate (activates virtual environment)
+
+pip freeze (shows what applications has been istalled)
+pip install django (install django)
+pip install djangorestframework (install drestframework)
+
+django-admin.py startproject djangoapi (create a new python project)
+
+python manage.py runserver (start server)
+
+python manage.py startapp kitespots (create application) ADD IT TO settings.py -> installed apps
+
+python manage.py createsuperuser (create admin user)
+
+Make migration
+python manage.py makemigrations (takes new files and converts it to database language)
+
+Push migrations
+python manage.py migrate
+
